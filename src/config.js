@@ -1,1 +1,1 @@
-export const API_URL = "https://oleg-gusei-cloud-server.fly.dev/";
+export const API_URL = "http://87.242.88.21:3000/";
