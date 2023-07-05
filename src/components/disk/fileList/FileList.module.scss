@@ -1,0 +1,38 @@
+.FileList {
+	margin: 20px 0;
+	padding-bottom: 30px;
+}
+
+.FilePlate {
+	display: flex;
+	gap: 15px;
+	row-gap: 30px;
+	flex-wrap: wrap;
+}
+
+.NotFound {
+	display: flex;
+	height: calc(100vh - 230px);
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+}
+
+.Header {
+	display: grid;
+	grid-template-columns: 3fr 15fr 3fr 3fr 1fr 1fr;
+
+	&__name {
+		grid-column-start: 2;
+	}
+
+	&__date {
+		grid-column-start: 3;
+		justify-self: center;
+	}
+
+	&__size {
+		grid-column-start: 4;
+		justify-self: center;
+	}
+}

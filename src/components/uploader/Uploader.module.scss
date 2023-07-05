@@ -1,0 +1,70 @@
+.Uploader {
+	height: 300px;
+	width: 400px;
+	position: fixed;
+	background-color: #566885;
+	bottom: 0;
+	right: 0;
+	padding: 20px;
+	border-radius: 12px;
+	overflow-y: auto;
+}
+
+.Header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 10px;
+	color: #fff;
+	&__title {
+		font-size: 20px;
+	}
+}
+
+.Close {
+	background-color: transparent;
+	color: #fff;
+	font-size: 30px;
+	line-height: 0.5;
+	cursor: pointer;
+	transition: 0.3s;
+	&:hover {
+		text-shadow: #fff 0 0 7px;
+	}
+}
+
+.UploadFile .Close {
+	color: #566885;
+	&:hover {
+		text-shadow: #566885 0 0 7px;
+	}
+}
+
+.UploadFile {
+	background-color: #fff;
+	border-radius: 12px;
+	margin: 5px 0;
+	padding: 5px 10px;
+	&__header {
+		display: flex;
+		padding: 5px 0;
+		justify-content: space-between;
+	}
+	&__progressBar {
+		height: 25px;
+		border-radius: 12px;
+		background-color: #a1a9b5;
+		display: flex;
+		margin: 3px 0;
+	}
+	&__uploadBar {
+		background-color: #566885;
+		border-radius: 12px;
+	}
+	&__percent {
+		color: #fff;
+		left: 50%;
+		position: absolute;
+		align-self: center;
+	}
+}

@@ -1,0 +1,58 @@
+.Popup {
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+	right: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Content {
+	width: 400px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 12px;
+	display: flex;
+	flex-direction: column;
+}
+
+.Create_btn {
+	align-self: flex-end;
+	color: #566885;
+	padding: 5px 10px;
+	border-radius: 5px;
+	transition: 0.3s;
+	cursor: pointer;
+	&:hover {
+		box-shadow: #566885 0 0 7px;
+	}
+}
+
+.DirName {
+	margin: 20px 0;
+	border: 1px solid #566885;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+.Header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.Close_btn {
+	background-color: transparent;
+	font-size: 35px;
+	color: #566885;
+	cursor: pointer;
+	transition: 0.3s;
+	&:hover {
+		text-shadow: #566885 0 0 7px;
+	}
+}

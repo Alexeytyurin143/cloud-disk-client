@@ -1,0 +1,38 @@
+.Authorization {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	align-items: center;
+	background-color: white;
+	border-radius: 20px;
+	padding: 30px;
+	align-self: center;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.Header {
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.Input {
+	margin: 10px 20px;
+	width: 100%;
+}
+.Button {
+	border: none;
+	background-color: #566885;
+	border-radius: 8px;
+	font-size: 16px;
+	color: white;
+	font-weight: 700;
+	padding: 10px 30px;
+	align-self: flex-end;
+	margin-top: 10px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.Button:hover {
+	box-shadow: #566885 0 0 10px 3px;
+}

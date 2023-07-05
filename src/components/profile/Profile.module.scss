@@ -1,0 +1,40 @@
+.Profile {
+	max-width: 1440px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 15px;
+}
+.Avatar {
+	margin-top: 10px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.Btn {
+	cursor: pointer;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: #566885;
+	transition: 0.3s;
+	vertical-align: middle;
+	&:hover {
+		box-shadow: #566885 0 0 7px;
+	}
+}
+
+.Upload {
+	margin-top: 10px;
+}
+
+.Upload__Avatar {
+	display: none;
+}
+
+.InputLabel {
+	border: 4px dashed #566885;
+	padding: 10px 20px;
+	font-weight: 600;
+	cursor: pointer;
+}
